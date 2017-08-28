@@ -1,0 +1,218 @@
+.site-footer {
+  height: 400px;
+  background: url("../img/backgrounds/footer.jpg") center;
+  background-size: cover;
+  padding-top: 128px;
+  z-index: 3;
+}
+.site-footer-index {
+  height: 560px;
+  padding-top: 280px;
+}
+.footer-container {
+  max-width: 912px;
+  max-height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-column_one {
+  width: 50%;
+}
+.logo-footer {
+  height: 68.25px;
+  margin-bottom: 64px;
+  width: 176px;
+}
+.copyright {
+  color: #fff;
+  display: block;
+  letter-spacing: 1.5px;
+  font-size: 0.8125rem;
+  margin: 0;
+}
+.copyright-mobile {
+  display: none;
+}
+.footer-column_two {
+  width: 50%;
+}
+.footer_menu {
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer_menu-column_one {
+  margin-right: 65px;
+}
+.rer-logo {
+  display: block;
+  height: 68.25px;
+  margin-bottom: 77px;
+  width: 176px;
+}
+.rer-logo-mobile {
+  display: none;
+}
+.footer_menu-link {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  width: 155px;
+  letter-spacing: 1.4px;
+  color: #fff;
+  line-height: 1.5;
+  transition: 0.3s all ease;
+}
+.footer_menu-link:hover {
+  color: #2a97e6;
+}
+.footer_menu-link.active {
+  color: #2a97e6;
+  font-weight: 600;
+}
+.footer-separator {
+  display: none;
+}
+.footer-menu-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.footer_menu-column_two {
+  margin-right: 20px;
+}
+.footer_menu-column_three .icon {
+  margin-right: 12px;
+}
+.icon-size {
+  height: 20px;
+  width: 20px;
+}
+.more-seo {
+  position: absolute;
+  left: 50px;
+  opacity: 0;
+}
+@media screen and (max-width: 780px) {
+  .site-footer {
+    display: -ms-flexbox;
+    display: flex;
+    height: 490px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .site-footer-index {
+    display: -ms-flexbox;
+    display: flex;
+    height: 570px;
+    padding-left: 20px;
+    padding-top: 250px;
+    padding-right: 20px;
+  }
+  .footer-container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    max-height: 255px;
+    width: 100%;
+  }
+  .footer_menu-column_one {
+    margin-right: 0px;
+    position: relative;
+  }
+  .rer-logo {
+    display: none;
+  }
+  .rer-logo-mobile {
+    display: block;
+    height: 37px;
+    margin-bottom: 40px;
+    width: 113px;
+  }
+  .footer_menu {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .footer_menu-link {
+    font-size: 0.6875rem;
+    margin-bottom: 16px;
+    width: auto;
+  }
+  .footer-separator {
+    background-color: #0068b3;
+    display: block;
+    height: 110px;
+    margin: 77px 20px 0 20px;
+    width: 1px;
+  }
+  .footer-menu-row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-top: 77px;
+  }
+  .logo-footer {
+    height: auto;
+    margin-bottom: 0px;
+    width: 113px;
+  }
+  .footer-column_two {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 100%;
+  }
+  .footer_menu-column_two {
+    margin-right: 0px;
+  }
+  .footer-hr-vertical {
+    background-color: #0068b3;
+    height: 114px;
+    margin: 0px 20px;
+    width: 1px;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyright-mobile {
+    color: #fff;
+    display: block;
+    letter-spacing: 1.5px;
+    font-size: 0.6875rem;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .copyright-center {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .rer-logo-footer {
+    position: absolute;
+    top: -90px;
+  }
+  .more-seo {
+    left: auto;
+    right: 65px;
+  }
+}
+@media screen and (min-width: 781px) and (max-width: 1000px) {
+  .footer-container {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .footer-menu-row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .footer-column_one {
+    width: 37%;
+  }
+  .footer-column_two {
+    width: 37%;
+  }
+}
