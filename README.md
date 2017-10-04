@@ -1,1 +1,1 @@
-# shoreditch-template
+# blog-rer themplate
