@@ -10,17 +10,14 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<footer class="entry-footer">
-			<?php shoreditch_entry_footer(); ?>
-		</footer><!-- .entry-footer -->
 	<div class="hentry-wrapper">
 	<?php
 	if ( is_single() && has_post_thumbnail()) {
 	} else if (is_single() && !has_post_thumbnail()) { ?>
 		<header class="entry-header">
-			<div class="entry-header-wrapper">
+			<div class="entry-header-wrapper entry-header-wrapper-mobile">
 	<?php
-		the_title( '<h1 class="entry-title rer-font-opensans">', '</h1>' );
+		the_title( '<h1 class="entry-title rer-font-roboto-regular">', '</h1>' );
 	 ?>
 			</div><!-- .entry-header-wrapper -->
 		</header><!-- .entry-header -->
@@ -28,17 +25,20 @@
 	} else if (!is_single() && has_post_thumbnail()) { ?>
 		<header class="entry-header" <?php shoreditch_background_image(); ?>>
 		</header><!-- .entry-header -->
-		<div class="entry-header-wrapper">
+		<footer class="entry-footer">
+			<?php shoreditch_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
+		<div class="entry-header-wrapper entry-header-wrapper-mobile">
 <?php
-	the_title( '<h2 class="entry-title rer-font-opensans"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+	the_title( '<h2 class="entry-title rer-font-roboto-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
  ?>
 		</div><!-- .entry-header-wrapper -->
 	<?php
 	} else { ?>
 		<header class="entry-header">
-			<div class="entry-header-wrapper">
+			<div class="entry-header-wrapper entry-header-wrapper-mobile">
 	<?php
-		the_title( '<h2 class="entry-title rer-font-opensans"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		the_title( '<h2 class="entry-title rer-font-roboto-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 	 ?>
 			</div><!-- .entry-header-wrapper -->
 		</header><!-- .entry-header -->
