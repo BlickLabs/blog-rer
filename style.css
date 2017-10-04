@@ -1,13 +1,13 @@
 /*
-Theme Name: Shoreditch
-Theme URI: https://wordpress.com/themes/shoreditch/
+Theme Name: blog-rer
+Theme URI: https://wordpress.com/themes/blog-rer/
 Description: A flexible and multi-purpose business theme
 Version: 1.0
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: shoreditch
+Text Domain: blog-rer
 Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready
 */
 
@@ -1080,13 +1080,14 @@ label {
 .site-footer-wrapper,
 .site-header-wrapper,
 .site-content-wrapper .has-post-thumbnail .entry-header-wrapper,
-.widget-area-wrapper {
+.widget-area-wrapper,
+.entry-footer-hero {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1100px;
 	width: 90%;
 	width: calc(100% - 3em);
-}
+}/*Add entry-footer-hero for apply margin horizontal auto in date of content-hero.php*/
 
 .content-area,
 .site-content-wrapper {
@@ -5081,6 +5082,7 @@ aside.widget-area {
 	.site-content-wrapper .has-post-thumbnail .entry-header-wrapper {
 		padding: 1.5em;
 		width: 100%;
+    padding-left: 0; /*Add for remove padding left in entry titles */
 	}
 
 	.site-content-wrapper .has-post-thumbnail .entry-header {
@@ -5297,9 +5299,9 @@ aside.widget-area {
 
 	/* Content */
 	.hentry {
-		padding-bottom: 4.5em;
-		padding-top: 6em;
-	}
+		padding-bottom: 2rem;
+		padding-top: 1.25rem;
+	}/*Edit paddings for content of post*/
 
 	.archive .content-area .hentry,
 	.blog .content-area .hentry,
@@ -5318,9 +5320,9 @@ aside.widget-area {
 	}
 
 	.entry-hero-wrapper {
-		padding-bottom: 6em;
-		padding-top: 6em;
-	}
+		padding-bottom: 0;
+		padding-top: 6.1875rem;
+	}/*Edit padding for title of post*/
 
 	.entry-author {
 		margin-top: 4.5em;
@@ -5504,6 +5506,10 @@ aside.widget-area {
 	color: #132c3e;
 }
 
+.entry-title-hero {
+  margin-bottom: 0px;
+}
+
 .posted-on {
 	margin-bottom: 0.625rem !important;
 }
@@ -5519,17 +5525,42 @@ aside.widget-area {
 	width: 100%; 
 }
 
+.entry-hero a, .entry-hero .entry-title, .site-content-wrapper .has-post-thumbnail .entry-header-wrapper a {
+	color: #132c3e;
+}
+
+.background-img-widget {
+  background-image: url('img/backgrounds/background-blog.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
 @media screen and (max-width: 780px) {
 	.rer-title-container {
 		margin-top: 100px
 	}
 
-	.entry-footer {
-		margin-left: 26px;
+	.entry-footer.entry-footer-hero {
+		margin-left: 26px !important;
 	}
 
 	.all-entry-separator-container {
 		margin-left: 26px;
 		margin-right: 26px;
 	}
+
+  .entry-header-wrapper, .entry-footer-hero {
+    margin-left: initial !important;
+    margin-right: initial !important;
+  }
+
+  .entry-header-wrapper.entry-header-wrapper-mobile {
+    padding-top: 0 !important;
+  }
+
+  .site-content-wrapper .has-post-thumbnail .entry-header {
+    margin-left: 0;
+    width: 100%;
+  }
 }
