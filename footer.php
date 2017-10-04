@@ -21,6 +21,9 @@
       <a class="more-seo" href="http://www.getmore.mx">
         <img src="<?php echo get_template_directory_uri() . '/img/icons/favicon-more.png' ?>" alt="M CO.">
       </a>
+      <a class="rer-eu-link" href="http://rerenergygroup.com">
+        <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
+      </a>
       <p class="copyright rer-font-opensans">© Copyright, RER 2017</p>
     </div>
     <div class="footer-column_two">
@@ -33,6 +36,9 @@
           <a href="solar-benefits.html" class="footer_menu-link rer-font-opensans-footer">Beneficios solares</a>
           <a href="projects.html" class="footer_menu-link rer-font-opensans-footer">Proyectos</a>
           <a href="news.html" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
+          <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com">
+            <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
+          </a>
         </div>
         <div class="footer-separator"></div>
         <div class="footer-menu-row">
