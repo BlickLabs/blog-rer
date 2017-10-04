@@ -110,6 +110,7 @@
 
 @media screen and (max-width: 876px) {
   .site-navbar {
+    background-color: #142d3f;
     -ms-flex-pack: justify;
         justify-content: space-between;
     height: 56px;
