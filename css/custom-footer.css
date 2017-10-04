@@ -48,7 +48,7 @@
 .rer-logo {
   display: block;
   height: 68.25px;
-  margin-bottom: 77px;
+  margin-bottom: 35px;
   width: 176px;
 }
 .rer-logo-mobile {
@@ -96,13 +96,33 @@
   left: 50px;
   opacity: 0;
 }
+
+.rer-eu-link {
+  display: block;
+}
+
+.rer-eu-link-mobile {
+  display: none;
+}
+
+.rer-eu-link:hover .rer-eu-text {
+  color: #2a97e6;
+}
+.rer-eu-text {
+  color: #fff;
+  font-size: 0.8125rem;
+  letter-spacing: 1.5px;
+  margin: 0 0 30px 0;
+}
+
 @media screen and (max-width: 780px) {
   .site-footer {
     display: -ms-flexbox;
     display: flex;
-    height: 490px;
+    height: 440px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 80px;
   }
   .site-footer-index {
     display: -ms-flexbox;
@@ -139,14 +159,14 @@
     width: 100%;
   }
   .footer_menu-link {
-    font-size: 0.6875rem;
+    font-size: 0.5625rem;
     margin-bottom: 16px;
     width: auto;
   }
   .footer-separator {
     background-color: #0068b3;
     display: block;
-    height: 110px;
+    height: 140px;
     margin: 77px 20px 0 20px;
     width: 1px;
   }
@@ -183,7 +203,7 @@
     color: #fff;
     display: block;
     letter-spacing: 1.5px;
-    font-size: 0.6875rem;
+    font-size: 0.5625rem;
     margin: 40px 0 0 0;
     text-align: center;
   }
@@ -199,7 +219,20 @@
     left: auto;
     right: 65px;
   }
+
+  .rer-eu-link {
+    display: none;
+  }
+
+  .rer-eu-link-mobile {
+    display: block;
+  }
+
+  .rer-eu-text {
+    font-size: 0.6875rem;
+  }
 }
+
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   .footer-container {
     -ms-flex-pack: center;
