@@ -27,94 +27,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <script
-    src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-  <script>
-
-  $(document).ready(function() {
-    $("body").click(function(event) {
-      console.log(event.target, '--------');
-      if (event.target.id === 'bars') {
-        slide();
-      } else {
-        if (event.target.tagName !== 'UL')
-          close();
-      }
-    });
-    $("body").bind( "touchstart", function(event) {
-      console.log(event.target, '--------');
-      if (event.target.id === 'bars') {
-        slide();
-      } else {
-        if (event.target.tagName !== 'UL')
-          close();
-      }
-    });
-  });
-  function close () {
-    if (document.querySelector('#hamburgerMenu').classList.contains('showMenu')) {
-      document.querySelector('#hamburgerMenu').classList.add('slideOutRight');
-      document.querySelector('#hamburgerMenu').classList.remove('slideInRight');
-      setTimeout(function () {
-        document.querySelector('#hamburgerMenuIcon').classList.add('hiddeOnWeb');
-        document.querySelector('#imgMenu').classList.add('hiddeOnWeb');
-        document.querySelector('#principalHeader').classList.remove('hiddeInMobil');
-        document.querySelector('#hamburgerMenu').classList.remove('showMenu');
-        document.querySelector('#bars').classList.remove('hiddeOnMobil');
-        document.querySelector('#hamburgerMenu').classList.add('hiddeOnMobil');
-        document.querySelector('#logo').classList.remove('hiddeOnMobil');
-      }, 500);
-    }
-  }
-  function slide() {
-    if (document.querySelector('#hamburgerMenu').classList.contains('showMenu')) {
-      document.querySelector('#hamburgerMenu').classList.add('slideOutRight');
-      document.querySelector('#hamburgerMenu').classList.remove('slideInRight');
-      setTimeout(function () {
-        document.querySelector('#hamburgerMenuIcon').classList.add('hiddeOnWeb');
-        document.querySelector('#imgMenu').classList.add('hiddeOnWeb');
-        document.querySelector('#principalHeader').classList.remove('hiddeInMobil');
-        document.querySelector('#hamburgerMenu').classList.remove('showMenu');
-        document.querySelector('#bars').classList.remove('hiddeOnMobil');
-        document.querySelector('#hamburgerMenu').classList.add('hiddeOnMobil');
-        document.querySelector('#logo').classList.remove('hiddeOnMobil');
-      }, 500);
-    } else {
-      document.querySelector('#hamburgerMenu').classList.add('slideInRight');
-      document.querySelector('#hamburgerMenu').classList.add('showMenu');
-      document.querySelector('#hamburgerMenu').classList.remove('slideOutRight');
-      document.querySelector('#hamburgerMenuIcon').classList.remove('hiddeOnWeb');
-      document.querySelector('#hamburgerMenu').classList.remove('hiddeOnWeb');
-      document.querySelector('#hamburgerMenu').classList.remove('hiddeOnMobil');
-      document.querySelector('#imgMenu').classList.remove('hiddeOnWeb');
-      document.querySelector('#bars').classList.add('hiddeOnMobil');
-      document.querySelector('#logo').classList.add('hiddeOnMobil');
-    }
-  }
-  </script>
-
-
-  <script type="text/javascript">
-    window.addEventListener('click', function(e) {
-      if (!e.target.dataset.hasOwnProperty('attribute')) {
-        document.querySelector('#menuContainer').style.width = '0%';
-        document.querySelector('#hamburgerMenu').style.display = 'inline';
-      }
-    });
-
-    function hideMenuHamburger () {
-      document.querySelector('#menuContainer').style.width = '0%';
-      document.querySelector('#hamburgerMenu').style.display = 'inline';
-    }
-
-    function showMenuHamburger () {
-      document.querySelector('#menuContainer').style.width = '85%';
-      document.querySelector('#hamburgerMenu').style.display = 'none';
-    }
-  </script>
-<!--NEW HAMBURGER AND NAVBAR MENU-->
 
   <nav class="site-navbar">
     <div class="site-navbar__desktop-logo-container">
@@ -171,7 +83,7 @@
         </a>
       </div>
     </div>
-    <div data-attribute="" class="navbar-hamburguer-visibility" onclick="showMenuHamburger()" id="hamburgerMenu">
+    <div data-attribute="" class="navbar-hamburguer-visibility" id="hamburgerMenu">
       <div class="navbar-hamburguer" data-attribute="">
         <div class="align-content-hamburguer" data-attribute="">
           <div class="line-hamburguer-base line-hamburguer-lg" data-attribute=""></div>
@@ -187,7 +99,7 @@
             <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" data-attribute="">
           </a>
         </div>
-        <div class="hamburger-close-container" onclick="hideMenuHamburger()">
+        <div class="hamburger-close-container" id="hideHamburger">
           <img class="hamburger-close" src="<?php echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
         </div>
       </div>
@@ -251,3 +163,56 @@
       </div>
     </div>
   </nav>
+
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+    function showMenu() {
+      document.querySelector('#menuContainer').style.width = '85%';
+      document.querySelector('#hamburgerMenu').style.display = 'none';
+    }
+
+    function hideMenu() {
+      document.querySelector('#menuContainer').style.width = '0%';
+      document.querySelector('#hamburgerMenu').style.display = 'inline';
+    }
+
+    window.addEventListener('click', function(e) {
+      if (!e.target.dataset.hasOwnProperty('attribute')) {
+        hideMenu();
+      }
+    });
+
+    /*Events of touchstart to mobile version*/
+
+    var showHamburger = document.querySelector('#hamburgerMenu');
+
+    showHamburger.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      showMenu();
+    });
+
+    var hideHamburger = document.querySelector('#hideHamburger');
+
+    hideHamburger.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      hideMenu();
+    });
+
+    /* Events of click to desktop version*/
+
+    showHamburger.addEventListener('click', function(e) {
+      e.preventDefault();
+      showMenu();
+    });
+
+    hideHamburger.addEventListener('click', function(e) {
+      e.preventDefault();
+      hideMenu();
+    });
+  </script>
+<!--NEW HAMBURGER AND NAVBAR MENU-->
