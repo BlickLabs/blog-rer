@@ -47,10 +47,10 @@
             <a href="contact.html" class="footer_menu-link rer-font-opensans-footer">Contacto</a>
           </div>
           <div class="footer_menu-column_three">
-            <a href="">
+            <a href="https://www.facebook.com/rerenergy/">
               <img class="icon icon-size" src="<?php echo get_template_directory_uri() . '/img/icons/fb-icon.svg' ?>" alt="facebook">
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/company/3195688/">
               <img class="icon-size" src="<?php echo get_template_directory_uri() . '/img/icons/li-icon.svg' ?>" alt="in">
             </a>
           </div>
