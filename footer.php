@@ -32,10 +32,10 @@
           <a class="rer-logo-mobile" href="#">
             <img class="logo-footer" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
           </a>
-          <a href="plans-services.html" class="footer_menu-link rer-font-opensans-footer">Planes y servicios</a>
-          <a href="solar-benefits.html" class="footer_menu-link rer-font-opensans-footer">Beneficios solares</a>
-          <a href="projects.html" class="footer_menu-link rer-font-opensans-footer">Proyectos</a>
-          <a href="news.html" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
+          <a href="http://rerenergygroup.com.mx/plans-services.html" class="footer_menu-link rer-font-opensans-footer">Planes y servicios</a>
+          <a href="http://rerenergygroup.com.mx/solar-benefits.html" class="footer_menu-link rer-font-opensans-footer">Beneficios solares</a>
+          <a href="http://rerenergygroup.com.mx/projects.html" class="footer_menu-link rer-font-opensans-footer">Proyectos</a>
+          <a href="http://rer.wpmultisite.getmore.mx/" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
           <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com">
             <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
           </a>
@@ -43,8 +43,8 @@
         <div class="footer-separator"></div>
         <div class="footer-menu-row">
           <div class="footer_menu-column_two">
-            <a href="about.html" class="footer_menu-link rer-font-opensans-footer">Quiénes somos</a>
-            <a href="contact.html" class="footer_menu-link rer-font-opensans-footer">Contacto</a>
+            <a href="http://rerenergygroup.com.mx/about.html" class="footer_menu-link rer-font-opensans-footer">Quiénes somos</a>
+            <a href="http://rerenergygroup.com.mx/contact.html" class="footer_menu-link rer-font-opensans-footer">Contacto</a>
           </div>
           <div class="footer_menu-column_three">
             <a href="https://www.facebook.com/rerenergy/">
