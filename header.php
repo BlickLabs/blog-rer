@@ -51,31 +51,31 @@
           </div>
           <span>Planes y servicios</span>
         </a>
-        <a href="solar-benefits.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/solar-benefits.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span>Beneficios solares</span>
         </a>
-        <a href="projects.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/projects.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span>Proyectos</span>
         </a>
-        <a href="news.html" class="site-navbar__menu-link active">
+        <a href="http://rer.wpmultisite.getmore.mx/" class="site-navbar__menu-link active">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span>Noticias</span>
         </a>
-        <a href="about.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/about.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span>Quiénes somos</span>
         </a>
-        <a href="contact.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/contact.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="hamburger-menu-body" data-attribute="">
-        <a data-attribute="" href="index.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/index.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -112,7 +112,7 @@
             <span class="hamburger-text">Inicio</span>
           </div>
         </a>
-        <a data-attribute="" href="plans-services.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/plans-services.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -120,7 +120,7 @@
             <span class="hamburger-text">Planes y servicios</span>
           </div>
         </a>
-        <a data-attribute="" href="solar-benefits.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/solar-benefits.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -128,7 +128,7 @@
             <span class="hamburger-text">Beneficios solares</span>
           </div>
         </a>
-        <a data-attribute="" href="projects.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/projects.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -136,7 +136,7 @@
             <span class="hamburger-text">Proyectos</span>
           </div>
         </a>
-        <a data-attribute="" href="news.html" class="hamburger-menu-link link-active">
+        <a data-attribute="" href="http://rer.wpmultisite.getmore.mx/news.html" class="hamburger-menu-link link-active">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -144,7 +144,7 @@
             <span class="hamburger-text">Noticias</span>
           </div>
         </a>
-        <a data-attribute="" href="about.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/about.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -152,7 +152,7 @@
             <span class="hamburger-text">Quiénes somos</span>
           </div>
         </a>
-        <a data-attribute="" href="contact.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://rerenergygroup.com.mx/contact.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
