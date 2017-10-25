@@ -45,7 +45,7 @@
           </div>
           <span>Inicio</span>
         </a>
-        <a href="plans-services.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/plans-services.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
