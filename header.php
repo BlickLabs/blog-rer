@@ -136,7 +136,7 @@
             <span class="hamburger-text">Proyectos</span>
           </div>
         </a>
-        <a data-attribute="" href="http://rer.wpmultisite.getmore.mx/news.html" class="hamburger-menu-link link-active">
+        <a data-attribute="" href="http://rer.wpmultisite.getmore.mx/" class="hamburger-menu-link link-active">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
