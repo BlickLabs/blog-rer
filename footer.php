@@ -29,7 +29,7 @@
     <div class="footer-column_two">
       <div class="footer_menu">
         <div class="footer_menu-column_one">
-          <a class="rer-logo-mobile" href="#">
+          <a class="rer-logo-mobile" href="http://rerenergygroup.com.mx/index.html">
             <img class="logo-footer" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
           </a>
           <a href="http://rerenergygroup.com.mx/plans-services.html" class="footer_menu-link rer-font-opensans-footer">Planes y servicios</a>
