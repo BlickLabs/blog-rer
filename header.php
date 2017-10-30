@@ -30,16 +30,16 @@
 
   <nav class="site-navbar">
     <div class="site-navbar__desktop-logo-container">
-      <a href="index.html">
+      <a href="http://rerenergygroup.com.mx/index.html">
         <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a href="index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo"></a>
+        <a href="http://rerenergygroup.com.mx/index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo"></a>
       </div>
       <div class="site-navbar__menu rer-font-opensans">
-        <a href="index.html" class="site-navbar__menu-link">
+        <a href="http://rerenergygroup.com.mx/index.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
