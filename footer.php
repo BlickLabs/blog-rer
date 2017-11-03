@@ -15,7 +15,7 @@
 <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-column_one">
-      <a class="rer-logo" href="#">
+      <a class="rer-logo" href="http://rerenergygroup.com.mx/">
         <img class="logo-footer" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
       </a>
       <a class="more-seo" href="http://www.getmore.mx">
@@ -29,13 +29,13 @@
     <div class="footer-column_two">
       <div class="footer_menu">
         <div class="footer_menu-column_one">
-          <a class="rer-logo-mobile" href="http://rerenergygroup.com.mx/index.html">
+          <a class="rer-logo-mobile" href="http://rerenergygroup.com.mx/">
             <img class="logo-footer" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
           </a>
           <a href="http://rerenergygroup.com.mx/plans-services.html" class="footer_menu-link rer-font-opensans-footer">Planes y servicios</a>
           <a href="http://rerenergygroup.com.mx/solar-benefits.html" class="footer_menu-link rer-font-opensans-footer">Beneficios solares</a>
           <a href="http://rerenergygroup.com.mx/projects.html" class="footer_menu-link rer-font-opensans-footer">Proyectos</a>
-          <a href="http://rer.wpmultisite.getmore.mx/" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
+          <a href="http://blog.rerenergygroup.com.mx/" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
           <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com">
             <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
           </a>
