@@ -30,13 +30,13 @@
 
   <nav class="site-navbar">
     <div class="site-navbar__desktop-logo-container">
-      <a href="http://rerenergygroup.com.mx/index.html">
+      <a href="http://rerenergygroup.com.mx/">
         <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo RER">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a href="http://rerenergygroup.com.mx/index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo"></a>
+        <a href="http://rerenergygroup.com.mx/"><img src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" alt="Logo"></a>
       </div>
       <div class="site-navbar__menu rer-font-opensans">
         <a href="http://rerenergygroup.com.mx/index.html" class="site-navbar__menu-link">
@@ -63,7 +63,7 @@
           </div>
           <span>Proyectos</span>
         </a>
-        <a href="http://rer.wpmultisite.getmore.mx/" class="site-navbar__menu-link active">
+        <a href="http://blog.rerenergygroup.com.mx/" class="site-navbar__menu-link active">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
@@ -95,7 +95,7 @@
     <div class="hamburger-menu-container rer-font-opensans" id="menuContainer" data-attribute="">
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
-          <a href="" data-attribute="">
+          <a href="http://rerenergygroup.com.mx/" data-attribute="">
             <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logo/white-rer-logo.png' ?>" data-attribute="">
           </a>
         </div>
@@ -136,7 +136,7 @@
             <span class="hamburger-text">Proyectos</span>
           </div>
         </a>
-        <a data-attribute="" href="http://rer.wpmultisite.getmore.mx/" class="hamburger-menu-link link-active">
+        <a data-attribute="" href="http://blog.rerenergygroup.com.mx/" class="hamburger-menu-link link-active">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
