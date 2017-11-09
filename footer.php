@@ -21,7 +21,7 @@
       <a class="more-seo" href="http://www.getmore.mx">
         <img src="<?php echo get_template_directory_uri() . '/img/icons/favicon-more.png' ?>" alt="M CO.">
       </a>
-      <a class="rer-eu-link" href="http://rerenergygroup.com">
+      <a class="rer-eu-link" href="http://rerenergygroup.com" target="_blank" rel="noopener noreferrer">
         <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
       </a>
       <p class="copyright rer-font-opensans">© Copyright, RER 2017</p>
@@ -36,7 +36,7 @@
           <a href="http://rerenergygroup.com.mx/solar-benefits.html" class="footer_menu-link rer-font-opensans-footer">Beneficios solares</a>
           <a href="http://rerenergygroup.com.mx/projects.html" class="footer_menu-link rer-font-opensans-footer">Proyectos</a>
           <a href="http://blog.rerenergygroup.com.mx/" class="footer_menu-link rer-font-opensans-footer active">Noticias</a>
-          <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com">
+          <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com" target="_blank" rel="noopener noreferrer">
             <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
           </a>
         </div>
@@ -47,10 +47,10 @@
             <a href="http://rerenergygroup.com.mx/contact.html" class="footer_menu-link rer-font-opensans-footer">Contacto</a>
           </div>
           <div class="footer_menu-column_three">
-            <a href="https://www.facebook.com/rerenergy/">
+            <a href="https://www.facebook.com/rerenergygroup" target="_blank" rel="noopener noreferrer">
               <img class="icon icon-size" src="<?php echo get_template_directory_uri() . '/img/icons/fb-icon.svg' ?>" alt="facebook">
             </a>
-            <a href="https://www.linkedin.com/company/3195688/">
+            <a href="https://www.linkedin.com/company/3195688/" target="_blank" rel="noopener noreferrer">
               <img class="icon-size" src="<?php echo get_template_directory_uri() . '/img/icons/li-icon.svg' ?>" alt="in">
             </a>
           </div>
