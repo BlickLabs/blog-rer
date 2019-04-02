@@ -115,6 +115,22 @@
   margin: 0 0 30px 0;
 }
 
+.newSection-desktop {
+  margin-bottom: 8px;
+}
+
+.newSection-text {
+  color: #fff;
+  display: block;
+  letter-spacing: 1.5px;
+  font-size: 0.8125rem;
+  margin: 0 0 10px 0;
+}
+
+.newSection-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 780px) {
   .site-footer {
     display: -ms-flexbox;
@@ -135,7 +151,7 @@
   .footer-container {
     -ms-flex-direction: column;
         flex-direction: column;
-    max-height: 255px;
+    max-height: 320px;
     width: 100%;
   }
   .footer_menu-column_one {
@@ -168,6 +184,7 @@
     display: block;
     height: 140px;
     margin: 77px 20px 0 20px;
+    min-width: 1px;
     width: 1px;
   }
   .footer-menu-row {
@@ -230,6 +247,23 @@
 
   .rer-eu-text {
     font-size: 0.6875rem;
+  }
+
+  .newSection-desktop {
+    display: none;
+  }
+
+  .newSection-text {
+    color: #fff;
+    display: block;
+    letter-spacing: 1.5px;
+    font-size: 9px;
+    margin: 10px 0 0 0;
+    text-align: left;
+  }
+
+  .newSection-mobile {
+    display: block;
   }
 }
 
