@@ -24,7 +24,11 @@
       <a class="rer-eu-link" href="http://rerenergygroup.com" target="_blank" rel="noopener noreferrer">
         <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
       </a>
-      <p class="copyright rer-font-opensans">© Copyright, RER 2017</p>
+      <div class="newSection-desktop">
+        <p class="newSection-text rer-font-opensans">Teléfono: +52 55 2922 7814</p>
+        <p class="newSection-text rer-font-opensans">Corporativo: Polanco Ciudad de México</p>
+      </div>
+      <p class="copyright rer-font-opensans">© Copyright, RER <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
     </div>
     <div class="footer-column_two">
       <div class="footer_menu">
@@ -39,6 +43,10 @@
           <a class="rer-eu-link rer-eu-link-mobile" href="http://rerenergygroup.com" target="_blank" rel="noopener noreferrer">
             <p class="rer-eu-text rer-font-opensans">rerenergygroup.com</p>
           </a>
+          <div class="newSection-mobile">
+            <p class="newSection-text rer-font-opensans">Teléfono: +52 55 2922 7814</p>
+            <p class="newSection-text rer-font-opensans">Corporativo: Polanco Ciudad de México</p>
+          </div>
         </div>
         <div class="footer-separator"></div>
         <div class="footer-menu-row">
@@ -57,7 +65,7 @@
         </div>
       </div>
     </div>
-    <p class="copyright-mobile rer-font-opensans">© Copyright, RER 2017</p>
+    <p class="copyright-mobile rer-font-opensans">© Copyright, RER <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
   </div>
 </footer>
 
